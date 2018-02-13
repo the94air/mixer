@@ -5,11 +5,30 @@
 	<title>Laravel Mix</title>
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="dist/css/app.css">
+	<style>
+		pre {
+			background: #fff;
+			border: 1px solid #f07a7a;
+			padding: 10px;
+			display: inline-block;
+			border-radius: 0.2em;
+		}
+	</style>
 </head>
 <body>
 	
 	<p>Laravel mix</p>
-	<p><small>Open your console</small></p>
+	<p><small>Your compiled CSS</small></p>
+	<pre>body {
+	font-family: 'Fira Sans', serif;
+	background: #fff8bd;
+}
+	  
+body p {
+	margin: 0;
+}</pre>
+	<p><small>Open your console. You should see this</small></p>
+	<pre>Hello, from app.js!</pre>
 
 	<script type="text/javascript" src="dist/javascript/app.js"></script>
 </body>
