@@ -10,4 +10,4 @@ And install all dependancies
 ```
 npm install
 ```
-And your are done!
+And you'r done!
