@@ -1,7 +1,7 @@
 # mixer
 Stand alone version of Laravel MIX tool.
 
-## Try it your self
+## Try it yourself
 Just clone the repo
 ```
 git clone https://github.com/the94air/mixer.git
