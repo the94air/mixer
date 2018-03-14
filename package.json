@@ -13,6 +13,6 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "laravel-mix": "^2.0"
+    "laravel-mix": "^2.1"
   }
 }
