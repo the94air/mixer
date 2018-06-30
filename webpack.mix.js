@@ -11,10 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.setPublicPath('dist')
-    .setResourceRoot('http://site.dev/')
-    .js('src/javascript/app.js', 'dist/javascript')
-    .sass('src/sass/app.scss', 'dist/css');
+mix.setPublicPath('public')
+    .setResourceRoot('http://mixer.oo/')
+    .js('src/javascript/app.js', 'public/javascript')
+    .sass('src/sass/app.scss', 'public/css');
 
 // Full API
 // mix.js(src, output);

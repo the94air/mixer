@@ -1,7 +1,22 @@
+html, body {
+	height: 100%;
+}
+
 body {
-	font-family: 'Fira Sans', serif;
-	background: #fff8bd;
-	p {
-		margin: 0;
-	}
+	font-family: 'Merriweather', serif;
+	margin: 0;
+	padding: 0;
+}
+
+center {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 100;
 }
