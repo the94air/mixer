@@ -1,5 +1,5 @@
 # mixer (boilerplate)
-Stand alone version of Laravel MIX tool.
+Stand alone version of Laravel MIX for module bundling and asset compilation.
 
 ## Try it yourself
 Just clone the repo

@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 mix.setPublicPath('public')
-    .setResourceRoot('http://mixer.oo/')
+    .setResourceRoot('http://laravel.mix/')
     .js('src/javascript/app.js', 'public/javascript')
     .sass('src/sass/app.scss', 'public/css');
 
